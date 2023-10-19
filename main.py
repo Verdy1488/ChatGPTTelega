@@ -2,8 +2,8 @@ import telebot
 import openai
 from telebot import types
 
-token = '6654086918:AAGi38I450YnqeQpnuGxtyL3NOt1WAj770U'
-openai_token = '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'
+token = 'TOKEN'
+openai_token = 'TOKEN'
 
 bot = telebot.TeleBot(token)
 openai.api_key = openai_token
